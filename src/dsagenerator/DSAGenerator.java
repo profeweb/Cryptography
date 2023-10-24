@@ -1,8 +1,5 @@
 package dsagenerator;
 
-/* DsaKeyGenerator.java
- * Copyright (c) HerongYang.com. All Rights Reserved.
- */
 import java.io.*;
 import java.security.*;
 import java.util.Scanner;

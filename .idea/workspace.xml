@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e227a6f7-fc8b-4e69-8c8e-621e06f03c58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/grover/GroverAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/grover/TestGrover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shor/Shor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cryptography.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cryptography.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aes/AESMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aes/AESMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aes/AESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aes/AESUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aes256/AES256Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aes256/AES256Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aes256/AES256Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aes256/AES256Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dsa/DSAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/DSAUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dsagenerator/DSAGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsagenerator/DSAGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,33 +37,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "C:/Users/tonim/IdeaProjects/Cryptography/lib/jQuantum-2.3.1.jar",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DSAGenerator">
-    <configuration name="AES256Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aes256.AES256Main" />
+  <component name="RunManager" selected="Application.CaesarCipher">
+    <configuration name="CaesarCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="caesar.CaesarCipher" />
       <module name="Cryptography" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aes256.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AESMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aes.AESMain" />
-      <module name="Cryptography" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aes.*" />
+          <option name="PATTERN" value="caesar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +84,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Shor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shor.Shor" />
+      <module name="Cryptography" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGrover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grover.TestGrover" />
+      <module name="Cryptography" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CaesarCipher" />
+        <item itemvalue="Application.TestGrover" />
+        <item itemvalue="Application.Shor" />
         <item itemvalue="Application.DSAGenerator" />
         <item itemvalue="Application.DSAUtil" />
-        <item itemvalue="Application.AES256Main" />
-        <item itemvalue="Application.AESMain" />
       </list>
     </recent_temporary>
   </component>
@@ -116,11 +128,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698158740823</updated>
-      <workItem from="1698158742587" duration="2418000" />
+      <workItem from="1698158742587" duration="3142000" />
     </task>
+    <task id="LOCAL-00001" summary="Cryptography">
+      <created>1698161201449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698161201449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cryptography" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cryptography" />
   </component>
 </project>
